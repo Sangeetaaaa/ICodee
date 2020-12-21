@@ -1,0 +1,145 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.body__container {
+    padding-left: 3vmin;
+}
+
+.nav__list {
+    list-style: none;
+    display: flex;
+}
+
+
+
+.nav__items {
+    padding: 3vmin;
+    justify-items: flex-end;
+    font-weight: bolder;
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.nav__items:hover {
+    text-decoration: none;
+}
+
+.nav__items-sub {
+    padding: 2vmin;
+    margin-top: 2vmin;
+    background-color: black;
+    border: 1px solid white;
+    list-style: none;
+    position: absolute;
+    cursor: pointer;
+    overflow: hidden;
+    display: none;
+    /* transition:  0.8s ease-in-out; */
+}
+
+.nav__items-sub > li {
+    padding: 10px;
+    text-decoration: none;
+}
+
+
+.nav__items-sub > li:hover {
+    text-decoration: underline;
+}
+
+.nav__items:hover > .nav__items-sub {
+    display: block;
+}
+
+
+
+/* Keyboard  */
+
+.keyboard__msg {
+    display: none;
+    text-decoration: underline;
+}
+
+.keyboard textarea {
+    background-color: transparent;
+    width: 200px;
+    color: transparent;
+    border: none;
+    display: none;
+    position: absolute;
+
+}
+
+
+.keyboard textarea:focus {
+    outline: none;
+}
+
+.main-content {
+    line-height: 1.5;
+    width: auto;
+    color: #ffe9d6;
+    overflow: hidden;
+}
+
+
+.thanks__content {
+    margin-top: 4vmin;
+    margin-bottom: 5vmin;
+    transition: 0.6s ease;
+}
+
+.creator {
+    display: none;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+.link {
+    color: white;
+    margin-top: 0;
+}
+
+
+/* Theme list  */
+
+.Pink {
+    background-color: #0b0c0f;
+    color: #ff8585;
+    font-family: 'Courier Prime', monospace;
+}
+
+.Hacking {
+    background-color: black;
+    color: chartreuse;
+    font-family: 'Cutive Mono', monospace;
+}
+
+.Dark {
+    background-color: #000000;
+    color: #892cdc;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.restart {
+    display: none;
+    padding: 2vmin;
+    text-align: center;
+    cursor: pointer;
+}
+
+.restart button {
+    padding: 10px 15px;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+    .keyboard textarea {
+        display: none;
+    }
+}
+

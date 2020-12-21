@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, minimum-scale=1.0">
+    <title>I Code</title>
+    <link rel="stylesheet" href="styles.css"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro&family=Courier+Prime&family=Cutive+Mono&display=swap" rel="stylesheet">
+</head>
+<body class="Pink">
+
+    <div class="body__container">
+        <nav class="navbar">
+            <ul class="nav__list">
+                <li class="nav__items">
+                    Themes
+                    <ul class="nav__items-sub">
+                        <li class="nav__items-sub-items" onclick="activateTheme('Pink')" >Black Pink</li>
+                        <li class="nav__items-sub-items" onclick="activateTheme('Dark')" >Dark Purple</li>
+                        <li class="nav__items-sub-items" onclick="activateTheme('Hacking')" >Hacking</li>
+                     </ul>
+                </li>
+                <li class="nav__items">
+                    Songs
+                    <ul class="nav__items-sub">
+                        <li class="nav__items-sub-items" onclick="playSong('Faded')">Faded</li>
+                        <li class="nav__items-sub-items" onclick="playSong('Spectre')">Spectre</li>
+                        <li class="nav__items-sub-items" onclick="playSong('Cradles')">Cradles</li>
+                        <li class="nav__items-sub-items" onclick="playSong('Space Melody')">Space Melody</li>
+                        <li class="nav__items-sub-items" onclick="playSong('Ignite')">Ignite</li>
+                    </ul>
+                </li>   
+            </ul>
+        </nav>
+
+       
+        
+        <!-- Welcome Content -->
+        <div class="welcome">
+            
+        </div>
+
+        <br>
+          
+    
+        <!-- Main Content  -->
+        <div class="main-content">
+        </div>
+
+        <!-- open keyboard in mobile  -->
+        <div class="keyboard">
+            <textarea name="" id="keyboard" class="keyboard__msg" autocorrect="off" spellcheck="false" autocomplete="off" cols="30" rows="1" placeholder="Open keyboard"></textarea>
+        </div>
+
+         
+
+
+        <!-- Final Thanks Content  -->
+        <div class="thanks__content">
+        </div>
+
+        <div class="restart" onclick="restart()">
+            <button class="">restart</button>
+        </div> 
+
+
+        <span class="creator"> <small>
+            creator <a href="https://www.instagram.com/sangeeeetaaaa/" class="link">Sangeeta Shetty</a> <br>
+            inspired by <a href="https://hackertyper.net/" class="link">hackertyper</a>
+        </small> </span>
+
+
+
+        
+    </div>
+
+    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
+
