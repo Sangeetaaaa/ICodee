@@ -8,5 +8,5 @@ a fun website where you just need to type anything to generate a piece of code
 
 [website has been deployed you can see it live over here](https://icodee.netlify.app) 
 
-# Contributions 
+# Contribution 
 are welcome 😊
