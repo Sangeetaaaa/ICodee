@@ -83,7 +83,7 @@ function buttonAnimation(currentKey){ <br>
 //All the content which is to be displayed are stored here in an object
 const allContents = {
     mainContent: mainContent,
-    welcomeContent : `Welcome to icodee. Start typing....... ;)`,
+    welcomeContent : `Welcome to ICodee. Start typing....... ;) Code will be automatically generated as soon as you press the keys on your keyboard. Have fun`,
     thankingContent : `Hope you had fun :) Try with other themes.`
 }
 
@@ -175,12 +175,12 @@ function finalContent() {
 
 
 
-let pervTheme = ""
+let pervTheme = "Hacking"
 
 
 function activateTheme(themeName) {
 
-    pervTheme != "" && document.body.classList.remove(pervTheme)
+    pervTheme && document.body.classList.remove(pervTheme)
     
     let color = ""
 

@@ -80,7 +80,6 @@ body {
 .main-content {
     line-height: 1.5;
     width: auto;
-    color: #ffe9d6;
     overflow: hidden;
 }
 
@@ -131,7 +130,7 @@ body {
     cursor: pointer;
 }
 
-.restart button {
+.restart a {
     padding: 10px 15px;
 }
 
